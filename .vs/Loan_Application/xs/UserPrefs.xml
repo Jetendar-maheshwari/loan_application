@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{62154EBD-EFCC-4028-A57F-D88BE82F2D04}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="tests/Repository/RepositoryTest.cs">
+    <Files>
+      <File FileName="Loan_Application/src/Repository/ILoanRepository.cs" Line="1" Column="1" />
+      <File FileName="Loan_Application/src/Repository/LoanRepository.cs" Line="17" Column="10" />
+      <File FileName="tests/Repository/RepositoryTest.cs" Line="30" Column="6" />
+      <File FileName="Loan_Application/src/Servies/LoanService.cs" Line="15" Column="35" />
+      <File FileName="Loan_Application/src/Utils/PathWrapper.cs" Line="1" Column="1" />
+      <File FileName="Loan_Application/src/LoanApp.cs" Line="16" Column="18" />
+      <File FileName="Loan_Application/src/Models/Loan.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Loan_Application" expanded="True">
+            <Node name="Loan_Application" expanded="True">
+              <Node name="src" expanded="True">
+                <Node name="Models" expanded="True" />
+                <Node name="Repository" expanded="True" />
+                <Node name="Servies" expanded="True" />
+                <Node name="Utils" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="tests" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Repository" expanded="True">
+                <Node name="RepositoryTest.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Loan__Application PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
