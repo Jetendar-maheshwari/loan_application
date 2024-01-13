@@ -1,7 +1,5 @@
 # Loan Management System
 
-[![Build Status](https://your-build-status-icon-url)](https://your-build-status-link)
-
 A console application developed in C# using Visual Studio and .NET for efficiently managing colleague loans.
 
 ## Features
@@ -33,7 +31,7 @@ In the `Loan_Application` file structure:
 - List existing loans
 - Exit the application
 
-Tests ensure proper functioning of the repository, covering scenarios where the file exists or does not. These tests include add or get data.
+Tests ensure the proper functioning of the repository, covering scenarios where the file exists or does not. These tests include add or get data.
 
 ## Components
 
