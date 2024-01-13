@@ -1,39 +1,79 @@
-# loan_application
+# Loan Management System
 
-Developed in C# using Visual Studio and .NET, this console application efficiently manages colleague loans. Users can add loans with names, amounts, and locations, and then list and overview all entered loans.
+[![Build Status](https://your-build-status-icon-url)](https://your-build-status-link)
 
-The system follows architecture and design patterns, emphasizing testability and extendibility. It includes a service layer and repository interface for better code organization. Unit tests are provided for robustness, ensuring a reliable loan management solution.
+A console application developed in C# using Visual Studio and .NET for efficiently managing colleague loans.
 
-In the file structure Loan_Application, the user can interact with the system by adding loans, listing existing loans, or exiting the application. tests ensure the proper functioning of the repository, covering scenarios where the file exists or does not, add or get data.
+## Features
 
-Model (Loan): Represents loan entities with properties like Name, Amount, and Location.
+- Add loans with names, amounts, and locations
+- List and overview all entered loans
 
-Repository Interface (ILoanRepository): Defines methods to add loans and retrieve a list, establishing a contract.
+## Architecture and Design Patterns
 
-Repository (LoansRepository): Implements ILoanRepository, persisting loan data in "loans.txt" using injected IPathWrapper for file path management.
+The system follows architecture and design patterns, emphasizing:
+- Testability
+- Extendibility
 
-Service (LoansService): Serves as an intermediary, implementing ILoanRepository and delegating calls to LoansRepository for application logic.
+It includes:
 
-Utility (PathWrapper): Provides a streamlined interface for combining file paths, primarily for repository file handling.
+### Service Layer and Repository Interface
 
-Testing (RepositoryTest):
+For better code organization, the system includes a service layer and repository interface.
 
-NUnit tests for LoansRepository functionality.
+### Unit Tests
 
-Mocks file system operations using IPathWrapper.
+Robustness is ensured through unit tests, providing a reliable loan management solution.
 
-Asserts expected behaviour in adding and retrieving loans.
+## File Structure
 
-Application (LoanApp):
+In the `Loan_Application` file structure:
 
-The main entry point is where the user interacts with the Loan Management System through a console menu.
+- Add loans
+- List existing loans
+- Exit the application
 
-Options include adding a loan, listing all loans, and exiting the application.
+Tests ensure proper functioning of the repository, covering scenarios where the file exists or does not. These tests include add or get data.
 
-Utilizes the LoansService for loan operations and incorporates user input validation.
+## Components
 
-Testing (RepositoryTest):
+### Model (Loan)
 
-It contains NUnit tests to validate the functionality of the LoansRepository class.
+Represents loan entities with properties like Name, Amount, and Location.
 
-Mocks the file system operations using IPathWrapper and asserts the expected behaviour of adding and retrieving loans.
+### Repository Interface (ILoanRepository)
+
+Defines methods to add loans and retrieve a list, establishing a contract.
+
+### Repository (LoansRepository)
+
+Implements `ILoanRepository`, persisting loan data in "loans.txt" using injected `IPathWrapper` for file path management.
+
+### Service (LoansService)
+
+Serves as an intermediary, implementing `ILoanRepository` and delegating calls to `LoansRepository` for application logic.
+
+### Utility (PathWrapper)
+
+Provides a streamlined interface for combining file paths, primarily for repository file handling.
+
+### Testing (RepositoryTest)
+
+NUnit tests for `LoansRepository` functionality:
+
+- Mocks file system operations using `IPathWrapper`
+- Asserts expected behavior in adding and retrieving loans
+
+### Application (LoanApp)
+
+The main entry point where the user interacts with the Loan Management System through a console menu:
+
+- Options include adding a loan, listing all loans, and exiting the application
+- Utilizes the `LoansService` for loan operations and incorporates user input validation.
+
+### Testing (RepositoryTest)
+
+Contains NUnit tests to validate the functionality of the `LoansRepository` class:
+
+- Mocks file system operations using `IPathWrapper`
+- Asserts the expected behavior of adding and retrieving loans.
