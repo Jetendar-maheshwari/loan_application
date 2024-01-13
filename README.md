@@ -32,9 +32,7 @@ In the `Loan_Application` file structure:
 - List existing loans
 - Exit the application
 
-Tests ensure the proper functioning of the repository, covering scenarios where the file exists or does not. These tests include add or get data.
-
-## Components
+Tests ensure the proper functioning of the repository, covering scenarios where the file exists or does not. These tests include adding or getting data.
 
 ### Model (Loan)
 
@@ -76,3 +74,25 @@ Contains NUnit tests to validate the functionality of the `LoansRepository` clas
 
 - Mocks file system operations using `IPathWrapper`
 - Asserts the expected behavior of adding and retrieving loans.
+
+# How to Run the Application
+
+To run the Loan Management System application, follow these steps:
+
+1. Navigate to the project directory containing `LoanApp.cs`.
+2. Open a terminal or command prompt in that directory.
+
+### Using Visual Studio:
+
+3. If you have Visual Studio installed, you can open the project in Visual Studio and set `LoanApp.cs` as the startup file.
+4. Build the project.
+5. Run the project, and the console application will start.
+
+### Using .NET CLI:
+
+3. If you prefer using the .NET CLI, you can use the following commands:
+
+```bash
+dotnet build
+dotnet run --project LoanApp.csproj
+
