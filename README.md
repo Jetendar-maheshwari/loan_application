@@ -6,6 +6,7 @@ A console application developed in C# using Visual Studio and .NET for efficient
 
 - Add loans with names, amounts, and locations
 - List and overview all entered loans
+- The application follows coding standards, incorporates design patterns, and includes comprehensive testing cases.
 
 ## Architecture and Design Patterns
 
